@@ -4,7 +4,7 @@
  * Resumo: Simulando Uma Conta Bancária Através Do Terminal/Console
 */
 
-import java.util.Scanner;
+import java.util.Scanner; 
 
 public class ContaTerminal {
     public static void main(String[] args) throws Exception {
