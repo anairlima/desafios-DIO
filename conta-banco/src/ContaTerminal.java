@@ -14,7 +14,7 @@ public class ContaTerminal {
         System.out.println("Bem-Vindo(a) ao Banco X");
 
         System.out.println("Informe seu Nome");
-        String nome = scanner.next();
+        String nomeCliente = scanner.next();
 
         System.out.println("Por favor, digite o número da Agência!");
         String agencia = scanner.next();
@@ -25,10 +25,6 @@ public class ContaTerminal {
         System.out.println("Informe o seu saldo");
         double saldo = scanner.nextDouble()
 
-
-
-
-
-        System.out.println("Olá " + nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agência é " + agencia + ", conta " + numeroConta + " e seu saldo " + saldo + "já está disponível para saque")
+        System.out.println("Olá " + nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agência é " + agencia + ", conta " + numeroConta + " e seu saldo " + saldo + " já está disponível para saque");
     }
 }
